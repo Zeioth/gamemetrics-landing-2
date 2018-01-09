@@ -181,6 +181,11 @@ li {
 	color: inherit;
 }
 
+.modal-md{
+  margin-top: 100px;
+	background-color: transparent;
+}
+
 /* --------------------------------------
 =========================================
    2. COMPONENTS
@@ -1184,9 +1189,4 @@ strong,
 
 .social-icons li a:hover .transparent-text-dark {
 	color: #313131;
-}
-
-.modal-md{
-  margin-top: 100px;
-	background-color: transparent;
 }
