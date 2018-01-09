@@ -144,6 +144,10 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
+
+	.pricing {
+		background: none;
+	}
 }
 
 /*---------------------------------------
@@ -364,6 +368,10 @@
 
 	.timeline-section {
 		padding-left: 95px;
+	}
+
+	.modal-md{
+		margin-top: 60px;
 	}
 
 	.hide-for-mobile {

@@ -182,7 +182,6 @@ li {
 }
 
 .modal-md{
-  margin-top: 100px;
 	background-color: transparent;
 }
 
@@ -815,16 +814,10 @@ strong,
 -----------------------------------------*/
 .pricing {
 	padding-bottom: 30px;
-}
-
-
-@media only screen and (min-width: 769px) {
-	.pricing {
-		background: url('../images/background-images/3.jpg') no-repeat -42% 72%,
-								url('../images/background-images/4.jpg') no-repeat 142% 72%;
-		-webkit-background-size: 38%;
-		background-size: 38%;
-	}
+	background: url('../images/background-images/3.jpg') no-repeat -42% 72%,
+							url('../images/background-images/4.jpg') no-repeat 142% 72%;
+	-webkit-background-size: 38%;
+	background-size: 38%;
 }
 
 .pricing-table {
