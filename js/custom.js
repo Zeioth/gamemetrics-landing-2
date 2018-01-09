@@ -82,7 +82,7 @@ $(window).resize(function() {
 
   function mainNav() {
       var top = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-      if (top > 600) $('.appear-on-scroll').stop().animate({
+      if (top > 550) $('.appear-on-scroll').stop().animate({
           "opacity": '1',
           "top": '0'
       }, 0);

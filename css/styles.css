@@ -507,6 +507,10 @@ strong,
 	background-size: cover;
 }
 
+.header-container {
+	margin-top: 60px;
+}
+
 .header .overlay-layer {
 	padding-top: 84px;
 	padding-bottom: 175px;
