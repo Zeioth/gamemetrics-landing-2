@@ -818,7 +818,7 @@ strong,
 }
 
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 768px) {
 	.pricing {
 		background: url('../images/background-images/3.jpg') no-repeat -42% 72%,
 								url('../images/background-images/4.jpg') no-repeat 142% 72%;

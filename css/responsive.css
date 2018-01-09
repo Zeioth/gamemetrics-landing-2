@@ -178,10 +178,6 @@
 	.ipad-image {
 		max-width: 500px;
 	}
-
-	.hide-for-tablet {
-		display: none;
-	}
 }
 
 /*---------------------------------------
@@ -284,20 +280,12 @@
 		padding-top: 0;
 		padding-bottom: 0;
 	}
-
-	.hide-for-tablet {
-		display: none;
-	}
 }
 
 @media (max-width: 680px) {
 	.single-feature {
 		width: auto;
 		float: none;
-	}
-
-	.hide-for-tablet {
-		display: none;
 	}
 }
 
