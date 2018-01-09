@@ -178,6 +178,10 @@
 	.ipad-image {
 		max-width: 500px;
 	}
+
+	.hide-for-tablet {
+		display: none;
+	}
 }
 
 /*---------------------------------------
@@ -290,6 +294,10 @@
 	.single-feature {
 		width: auto;
 		float: none;
+	}
+
+	.hide-for-tablet {
+		display: none;
 	}
 }
 
