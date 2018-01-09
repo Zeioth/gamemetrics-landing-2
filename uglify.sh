@@ -1,0 +1,1 @@
+html-minifier --collapse-whitespace test.html -o index.html
