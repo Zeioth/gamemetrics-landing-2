@@ -129,19 +129,19 @@
 
                         <!-- NAVIGATION LINK -->
                         <ul class="nav navbar-nav navbar-left main-navigation small-text">
-                            <li><a href="#benefits" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'navbar-benefits');">Benefits</a>
+                            <li><a href="#benefits" id="navbar-benefits">Benefits</a>
                             </li>
-                            <li><a href="#pricing" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'navbar-pricing');">Pricing</a>
+                            <li><a href="#pricing" id="navbar-pricing">Pricing</a>
                             </li>
-                            <li><a href="#testimonials" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'navbar-testimonials');">Testimonials</a>
+                            <li><a href="#testimonials" id="navbar-testimonials">Testimonials</a>
                             </li>
                             <!-- <li><a href="http://example.com" class="external">External Link Example</a></li> -->
                         </ul>
 
                         <!-- LOGIN REGISTER -->
                         <ul class="nav navbar-nav navbar-right login-register small-text">
-                          <li class="login nv-item-fadeout"><a href="#" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-navbar');">Get started</a>
-                          <li class="register-button nv-item-fadein inpage-scroll"><a href="" class="navbar-register-button" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-navbar');">Get Started</a>
+                          <li class="login nv-item-fadeout"><a href="#" class="call-to-action-navbar" data-toggle="modal" data-target="#stamp-modal">Get started</a>
+                          <li class="register-button nv-item-fadein inpage-scroll"><a href="" class="navbar-register-button call-to-action-navbar" data-toggle="modal" data-target="#stamp-modal">Get Started</a>
                           </li>
                         </ul>
                     </div>
@@ -165,7 +165,7 @@
 
                             <!-- BUTTON -->
                             <div class="button">
-                                <a href="#benefits" class="btn white-button inpage-scroll hide-for-mobile" style="margin-right: 40px;" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'know-more-header');">Know more</a>
+                                <a href="#benefits" id="know-more-header" class="btn white-button inpage-scroll hide-for-mobile" style="margin-right: 40px;">Know more</a>
                                 <a href="" id="call-to-action-header" class="btn btn-primary standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started</a>
                             </div>
                             <!-- /END BUTTON -->
@@ -354,7 +354,7 @@
                     <div class="long-transparent-line">
                     </div>
                     <p class="white-text">
-                        Average improvement of the games planified with GameMetrics - <a href="" class="strong inpage-scroll" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-stats');">Get Started Now »</a>
+                        Average improvement of the games planified with GameMetrics - <a href="" id="call-to-action-stats" class="strong inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started Now »</a>
                     </p>
                 </div>
 
@@ -403,7 +403,7 @@
                         </ul>
 
                         <div class="button">
-                            <a href="" class="btn standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-pricing-indie');">Get Started</a>
+                            <a href="" id="call-to-action-pricing-indie" class="btn standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started</a>
                         </div>
 
                         <div class="small-text uppercase">
@@ -430,7 +430,7 @@
                         </ul>
 
                         <div class="button">
-                            <a href="" class="btn standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-pricing-pro');">Get Started</a>
+                            <a href="" id="call-to-action-pricing-pro" class="btn standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started</a>
                         </div>
 
                         <div class="small-text uppercase">
@@ -473,7 +473,7 @@
                         <p>
                             “You can't be a publisher without the right analytics, and this tool simply do what we need.”
                         </p>
-                        <h5 class="colored-text-blue"><a href="" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'testimonials');">Eusebia Bărlâdeanu</a></h5>
+                        <h5 class="colored-text-blue"><a href="" class="testimonials">Eusebia Bărlâdeanu</a></h5>
                         <div class="small-text">
                             G.G Publisher
                         </div>
@@ -489,7 +489,7 @@
                         <p>
                           “I can't believe how many people start their game without even know who is going to play it. I think good game developers don't make games for themselves. They truly care about the player.”
                         </p>
-                        <h5 class="colored-text-blue"><a href="" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'testimonials');">Eusebia Bărlâdeanu</a></h5>
+                        <h5 class="colored-text-blue"><a href="" class="testimonials">Eusebia Bărlâdeanu</a></h5>
                         <div class="small-text">
                             Red Symphony Studios
                         </div>
@@ -506,7 +506,7 @@
                             <p>
                               “We just published our second game and this time the result it's being completly different. We just realized how important analitics are.”
                             </p>
-                            <h5 class="colored-text-blue"><a href="" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'testimonials');">Georgian Hrușcă</a></h5>
+                            <h5 class="colored-text-blue"><a href="" class="testimonials">Georgian Hrușcă</a></h5>
                             <div class="small-text">
                                 Last Station Games
                             </div>
@@ -534,7 +534,7 @@
 
                         <h2 class="white-text strong" data-wow-duration="1.75s" data-wow-offset="100">Use it for FREE Now!</h2>
 
-                        <button class="btn btn-primary standard-button wow fadeInUp" data-wow-duration="1.75s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-footer');">Get Started</button>
+                        <button id="call-to-action-footer" class="btn btn-primary standard-button wow fadeInUp" data-wow-duration="1.75s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#stamp-modal">Get Started</button>
 
                     </div>
 
@@ -578,13 +578,13 @@
 
         <!-- SOCIAL ICONS -->
         <ul class="social-icons">
-            <li><a href="https://www.facebook.com/GameMetrics" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'social-media');"><span class="icon-social-facebook transparent-text-dark"></span></a>
+            <li><a href="https://www.facebook.com/GameMetrics" class="social-media-footer"><span class="icon-social-facebook transparent-text-dark"></span></a>
             </li>
-            <li><a href="https://twitter.com/Game_Metrics" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'social-media');"><span class="icon-social-twitter transparent-text-dark"></span></a>
+            <li><a href="https://twitter.com/Game_Metrics" class="social-media-footer"><span class="icon-social-twitter transparent-text-dark"></span></a>
             </li>
-            <li><a href="https://www.instagram.com/gamemetrics" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'social-media');"><span class="icon-social-instagram transparent-text-dark"></span></a>
+            <li><a href="https://www.instagram.com/gamemetrics" class="social-media-footer"><span class="icon-social-instagram transparent-text-dark"></span></a>
             </li>
-            <li><a href="https://www.linkedin.com/company/11146055/" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'social-media');"><span class="icon-social-linkedin transparent-text-dark"></span></a>
+            <li><a href="https://www.linkedin.com/company/11146055/" class="social-media-footer"><span class="icon-social-linkedin transparent-text-dark"></span></a>
             </li>
         </ul>
 
