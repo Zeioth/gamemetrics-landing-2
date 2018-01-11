@@ -819,8 +819,8 @@ strong,
 -----------------------------------------*/
 .pricing {
 	padding-bottom: 30px;
-	background: url('../images/background-images/3.jpg') no-repeat -42% 72%,
-							url('../images/background-images/4.jpg') no-repeat 142% 72%;
+	background: url('../images/background-images/3.png') no-repeat -42% 72%,
+							url('../images/background-images/4.png') no-repeat 142% 72%;
 	-webkit-background-size: 38%;
 	background-size: 38%;
 }
