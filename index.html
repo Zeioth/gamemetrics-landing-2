@@ -2,6 +2,27 @@
 <html lang="en">
 
 <head>
+
+    <!-- =========================
+     Analytics
+    ============================== -->
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PGJ57P3');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112149666-1"></script>
+    <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'UA-112149666-1');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="description" content="Analytics for game developers">
     <meta name="keywords" content="GameMetrics, Startup, Analytics, Metrics, Landing page, Registration, Landing, Login">
@@ -56,19 +77,17 @@
       After neccessary customization/modification, Please minify HTML/CSS according to http://browserdiet.com/en/ for better performance
      **************** -->
 
-     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112149666-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-112149666-1');
-    </script>
-
 </head>
 
 <body>
+
+    <!-- =========================
+     Analytics - Tags
+    ============================== -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGJ57P3"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- =========================
      PRE LOADER
@@ -110,19 +129,19 @@
 
                         <!-- NAVIGATION LINK -->
                         <ul class="nav navbar-nav navbar-left main-navigation small-text">
-                            <li><a href="#benefits" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'navbar-benefits');">Benefits</a>
+                            <li><a href="#benefits" id="navbar-benefits">Benefits</a>
                             </li>
-                            <li><a href="#pricing" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'navbar-pricing');">Pricing</a>
+                            <li><a href="#pricing" id="navbar-pricing">Pricing</a>
                             </li>
-                            <li><a href="#testimonials" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'navbar-testimonials');">Testimonials</a>
+                            <li><a href="#testimonials" id="navbar-testimonials">Testimonials</a>
                             </li>
                             <!-- <li><a href="http://example.com" class="external">External Link Example</a></li> -->
                         </ul>
 
                         <!-- LOGIN REGISTER -->
                         <ul class="nav navbar-nav navbar-right login-register small-text">
-                          <li class="login nv-item-fadeout"><a href="#" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-navbar');">Get started</a>
-                          <li class="register-button nv-item-fadein inpage-scroll"><a href="" class="navbar-register-button" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-navbar');">Get Started</a>
+                          <li class="login nv-item-fadeout"><a href="#" class="call-to-action-navbar" data-toggle="modal" data-target="#stamp-modal">Get started</a>
+                          <li class="register-button nv-item-fadein inpage-scroll"><a href="" class="navbar-register-button call-to-action-navbar" data-toggle="modal" data-target="#stamp-modal">Get Started</a>
                           </li>
                         </ul>
                     </div>
@@ -146,8 +165,8 @@
 
                             <!-- BUTTON -->
                             <div class="button">
-                                <a href="#benefits" class="btn white-button inpage-scroll hide-for-mobile" style="margin-right: 40px;" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'know-more-header');">Know more</a>
-                                <a href="" class="btn btn-primary standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-header');">Get Started</a>
+                                <a href="#benefits" id="know-more-header" class="btn white-button inpage-scroll hide-for-mobile" style="margin-right: 40px;">Know more</a>
+                                <a href="" id="call-to-action-header" class="btn btn-primary standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started</a>
                             </div>
                             <!-- /END BUTTON -->
 
@@ -286,7 +305,7 @@
                         <div class="icon-container">
                             <span class="colored-text-blue icon-basic-message-multiple"></span>
                         </div>
-                        <h4 class="white-text">+30%</h4>
+                        <h4 class="white-text">+30%+</h4>
                         <p class="uppercase transparent-text small-text">
                             Players
                         </p>
@@ -309,7 +328,7 @@
                     <div class="long-transparent-line">
                     </div>
                     <p class="white-text">
-                        Average improvement of the games planified with GameMetrics - <a href="" class="strong inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started »</a>
+                        Average improvement of the games planified with GameMetrics - <a href="" id="call-to-action-stats" class="strong inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started »</a>
                     </p>
                 </div>
 
@@ -355,7 +374,7 @@
                         </ul>
 
                         <div class="button">
-                            <a href="" class="btn standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-pricing-indie');">Get Started</a>
+                            <a href="" id="call-to-action-pricing-indie" class="btn standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started</a>
                         </div>
 
                         <div class="small-text uppercase">
@@ -382,7 +401,7 @@
                         </ul>
 
                         <div class="button">
-                            <a href="" class="btn standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-pricing-pro');">Get Started</a>
+                            <a href="" id="call-to-action-pricing-pro" class="btn standard-button inpage-scroll" data-toggle="modal" data-target="#stamp-modal">Get Started</a>
                         </div>
 
                         <div class="small-text uppercase">
@@ -422,9 +441,9 @@
                         <p>
                             “Using GameMetrics we understood what was the best market for our new game.”
                         </p>
-                        <h5 class="colored-text-blue"><a href="" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'testimonials');">Bradley M. Davis</a></h5>
+                        <h5 class="colored-text-blue"><a href="" class="testimonials">Bradley M. Davis</a></h5>
                         <div class="small-text">
-                            The Knight Planet
+                            Knight Planet
                         </div>
                     </div>
                 </div>
@@ -438,7 +457,7 @@
                         <p>
                           “I can't believe how many people start their game without even know who is going to play it.”
                         </p>
-                        <h5 class="colored-text-blue"><a href="" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'testimonials');">Eloisa Perez</a></h5>
+                        <h5 class="colored-text-blue"><a href="" class="testimonials">Eloisa Perez</a></h5>
                         <div class="small-text">
                             Red Symphony Studios
                         </div>
@@ -455,7 +474,7 @@
                             <p>
                               “We just published our second game and this time the result it's being completly different.”
                             </p>
-                            <h5 class="colored-text-blue"><a href="" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'testimonials');">Tomomi Daichi</a></h5>
+                            <h5 class="colored-text-blue"><a href="" class="testimonials">Tomomi Tanaka</a></h5>
                             <div class="small-text">
                                 Last Station Games
                             </div>
@@ -483,7 +502,7 @@
 
                         <h2 class="white-text strong" data-wow-duration="1.75s" data-wow-offset="100">Use it for FREE!</h2>
 
-                        <button class="btn btn-primary standard-button wow fadeInUp" data-wow-duration="1.75s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#stamp-modal" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'call-to-action-footer');">Get Started</button>
+                        <button id="call-to-action-footer" class="btn btn-primary standard-button wow fadeInUp" data-wow-duration="1.75s" data-wow-offset="40" type="button" data-toggle="modal" data-target="#stamp-modal">Get Started</button>
 
                     </div>
 
@@ -498,13 +517,11 @@
         <div class="modal-dialog modal-md">
             <div class="modal-content">
                 <div class="vertical-registration-form">
-                    <h4 class="dark-text form-heading">We are running a closed beta. Subscribe to receive an alert when our website is open to the public.</h4>
+                    <h4 class="dark-text form-heading">We are running a closed beta. Subscribe to recieve an alert when our website is open to the public.</h4>
                     <!-- Begin MailChimp Signup Form -->
-                    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
                     <div id="mc_embed_signup">
                     <form action="https://gamemetrics.us16.list-manage.com/subscribe/post?u=bdc9b9fe175da5315396fe46a&amp;id=2d1910394d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                        <div id="mc_embed_signup_scroll">
-
+                      <div id="mc_embed_signup_scroll">
                     	<input type="email" value="" name="EMAIL" class="form-control input-box" id="mce-EMAIL" placeholder="email address" required>
                         <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bdc9b9fe175da5315396fe46a_2d1910394d" tabindex="-1" value=""></div>
@@ -527,13 +544,13 @@
 
         <!-- SOCIAL ICONS -->
         <ul class="social-icons">
-            <li><a href="https://www.facebook.com/GameMetrics" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'social-media');"><span class="icon-social-facebook transparent-text-dark"></span></a>
+            <li><a href="https://www.facebook.com/GameMetrics" class="social-media-footer"><span class="icon-social-facebook transparent-text-dark"></span></a>
             </li>
-            <li><a href="https://twitter.com/Game_Metrics" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'social-media');"><span class="icon-social-twitter transparent-text-dark"></span></a>
+            <li><a href="https://twitter.com/Game_Metrics" class="social-media-footer"><span class="icon-social-twitter transparent-text-dark"></span></a>
             </li>
-            <li><a href="https://www.instagram.com/gamemetrics" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'social-media');"><span class="icon-social-instagram transparent-text-dark"></span></a>
+            <li><a href="https://www.instagram.com/gamemetrics" class="social-media-footer"><span class="icon-social-instagram transparent-text-dark"></span></a>
             </li>
-            <li><a href="https://www.linkedin.com/company/11146055/" onclick="__gaTracker('send', 'event', 'buttons', 'click', 'social-media');"><span class="icon-social-linkedin transparent-text-dark"></span></a>
+            <li><a href="https://www.linkedin.com/company/11146055/" class="social-media-footer"><span class="icon-social-linkedin transparent-text-dark"></span></a>
             </li>
         </ul>
 
@@ -544,14 +561,6 @@
      SCRIPTS
     ============================== -->
     <script src="js/jquery.min.js"></script>
-    <script>
-        /* PRE LOADER */
-        jQuery(window).load(function () {
-            "use strict";
-            jQuery(".status").fadeOut();
-            jQuery(".preloader").delay(1000).fadeOut("slow");
-        })
-    </script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nav.js"></script>
