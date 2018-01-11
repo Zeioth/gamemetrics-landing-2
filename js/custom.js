@@ -15,20 +15,13 @@ $(window).load(function() {
 	/*---------------------------------------*/
     $('.main-navigation').onePageNav({
         changeHash: true,
-        currentClass: 'not-active', /* CHANGE THE VALUE TO 'current' TO HIGHLIGHT CURRENT SECTION LINK IN NAV*/
+        currentClass: 'current', /* CHANGE THE VALUE TO 'current' TO HIGHLIGHT CURRENT SECTION LINK IN NAV*/
         scrollSpeed: 750,
         scrollThreshold: 0.5,
         filter: ':not(.external)'
     });
 
-    /*---------------------------------------*/
-    /*	STELLAR FOR BACKGROUND SCROLLING
-	/*---------------------------------------*/
 
-    $(window).stellar({
-        horizontalScrolling: false,
-        responsive: true
-    });
 
 });
 
