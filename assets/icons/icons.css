@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
 @font-face {
-  font-family: "stamp-icons";
-  src: url("fonts/stamp-icons.woff") format("woff"),
-    url("fonts/stamp-icons.ttf") format("truetype");
+  font-family: "fls-icons";
+  src: url("fonts/fls-icons.woff") format("woff"),
+    url("fonts/fls-icons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 
 }
 
 [data-icon]:before {
-  font-family: "stamp-icons" !important;
+  font-family: "fls-icons" !important;
   content: attr(data-icon);
   font-style: normal !important;
   font-weight: normal !important;
@@ -24,7 +24,7 @@
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "stamp-icons" !important;
+  font-family: "fls-icons" !important;
   font-style: normal !important;
   font-weight: normal !important;
   font-variant: normal !important;
@@ -887,7 +887,7 @@
 .icon-circle-empty:before {
   content: "\e11b";
 }
-.icon-circle-slelected:before {
+.icon-circle-selected:before {
   content: "\e11c";
 }
 .icon-clock-alt:before {
